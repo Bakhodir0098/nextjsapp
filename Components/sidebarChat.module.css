@@ -1,0 +1,29 @@
+.chat {
+  background-color: white;
+  padding: 20px;
+  flex: 1;
+  overflow-y: scroll;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.139);
+}
+
+.chat:hover {
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+}
+
+.chat_info {
+  margin-left: 10px;
+}
+
+.chat_info h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.chat_info p {
+  font-size: 12px;
+  color: grey;
+}
